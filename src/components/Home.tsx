@@ -2,8 +2,11 @@ const Home = () => {
   return (
     <section className="w-full h-full bg-neutral-900">
       <div className="flex justify-center text-center pt-50 text-8xl text-neutral-300">
-        Design work,the <br />
-        efficient way
+        <p>
+          Design work
+          <br />
+          efficient way
+        </p>
       </div>
       <div className="flex flex-row justify-between">
         <div>
@@ -17,11 +20,13 @@ const Home = () => {
           </div>
         </div>
         <div className="flex flex-col text-center pt-15 text-xl text-neutral-500">
-          Innovative design solutions for technology firms and <br />
-          emerging businesses weary of the typical aesthetic <br />
-          methodology. Arriving shortly.
+          <p>
+            Innovative design solutions for technology firms and <br />
+            emerging businesses weary of the typical aesthetic <br />
+            methodology. Arriving shortly.
+          </p>
           <nav className="hidden md:flex items-center gap-2 lg:gap-10 md:gap-4 mt-8">
-            <div className="hidden md:flex items-center lg:gap-10 md:gap-4 border-1 border-neutral-700 rounded-4xl p-4">
+            <div className="hidden md:flex items-center justify-center lg:gap-10 md:gap-4 border-1 border-neutral-700 rounded-4xl p-4">
               <input
                 type="text"
                 placeholder="name@email.com"
@@ -102,9 +107,11 @@ const Home = () => {
         <img src="\parar-circulado.png" alt="" className="w-6 h-6" />
         <div className="ml-2">What you'II get</div>
       </div>
-      <div className="flex flex-col text-center pt-3 text-5xl text-neutral-300">
-        We resolve problems associated with <br />
-        creative procedures.
+      <div className="flex flex-col text-center pt-3 text-5xl text-neutral-300 leading-none">
+        <p>
+          We resolve problems associated with <br />
+          creative procedures.
+        </p>
       </div>
       <div className="flex flex-row justify-center mt-15 gap-8 ">
         <div className="w-100 h-110 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
@@ -176,7 +183,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex items-center flex-row justify-center mt-15 gap-8">
-        <div className="flex flex-row items-center justify-around pl-3 w-153 h-50 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
+        <div className="flex flex-row items-center justify-around pl-10 w-153 h-50 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
           <div className="flex flex-col text-2xl text-neutral-300 font-medium leading-none">
             <p className="leading-none">
               Workflow <br />
@@ -187,44 +194,32 @@ const Home = () => {
               existing apps.
             </span>
           </div>
-          <div className="grid grid-cols-3 gap-3">
-            <div className="rounded-full">
-              <img
-                src="\mulher-vermelho.png"
-                alt=""
-                className="w-15 h-15 rounded-full"
-              />
+          <div className="grid grid-rows-2">
+            <div className="flex flex-row gap-3">
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img src="\figma.png" alt="" className="w-10 h-10" />
+              </div>
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img src="\Notion.png" alt="" className="w-10 h-10" />
+              </div>
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img src="\Wikimedia.png" alt="" className="w-10 h-10" />
+              </div>
             </div>
-            <div className="rounded-full">
-              <img
-                src="\homem-preto.png"
-                alt=""
-                className="w-15 h-15 rounded-full"
-              />
-            </div>
-            <div className="rounded-full">
-              <img
-                src="\mulher-branca.png"
-                alt=""
-                className="w-15 h-15 rounded-full"
-              />
-            </div>
-            <div className="rounded-full">
-              <img
-                src="\homem-preto.png"
-                alt=""
-                className="w-15 h-15 rounded-full"
-              />
-            </div>
-            <div className="rounded-full">
-              <img
-                src="\mulher-branca.png"
-                alt=""
-                className="w-15 h-15 rounded-full"
-              />
-            </div>
-            <div className="rounded-full">
-              <div className="w-15 h-15 rounded-full bg-neutral-700 border-4 border-neutral-800" />
+            <div className="flex flex-row mt-1 ml-12 gap-3 items-center">
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img
+                  src="\x.png"
+                  alt=""
+                  className="w-10 h-10 rounded-full pt-1"
+                />
+              </div>
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img src="\burguer.png" alt="" className="w-10 h-10" />
+              </div>
+              <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full items-center justify-center border-t-1 border-l-1 border-t-neutral-700 border-l-neutral-700">
+                <img src="\discord.svg" alt="" className="w-15 h-15 " />
+              </div>
             </div>
           </div>
         </div>
@@ -316,8 +311,10 @@ const Home = () => {
         <div className="ml-2">How it works</div>
       </div>
       <div className="flex flex-col text-center pt-5 text-5xl text-neutral-300">
-        Top–notch designs, <br />
-        delivered at your doorstep.
+        <p>
+          Top–notch designs, <br />
+          delivered at your doorstep.
+        </p>
       </div>
       <div className="flex flex-row justify-center mt-15 gap-8">
         <div className="w-100 h-80 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
@@ -373,12 +370,14 @@ const Home = () => {
               Customer story
             </div>
           </div>
-          <div className="flex pt-15 text-4xl text-neutral-300">
-            “Our growth no longer <br />
-            necessitates the <br />
-            recruitment and education <br />
-            of additional design <br />
-            professionals”
+          <div className="flex pt-15 text-3xl text-neutral-300">
+            <p>
+              Our growth no longer <br />
+              necessitates the <br />
+              recruitment and education <br />
+              of additional design<br />
+              professionals
+            </p>
           </div>
           <div className="flex flex-row pt-10 text-neutral-300 font-semibold text-lg">
             <div>Read the story</div>
@@ -387,6 +386,47 @@ const Home = () => {
         </div>
         <div className="flex pl-15 ">
           <img src="\johnny.png" alt="" className="w-130 h-100 rounded-3xl" />
+        </div>
+      </div>
+      <div className="flex flex-row mt-40 gap-10 justify-center">
+        <div className="flex flex-col items-center">
+          <img src="\iom.png" alt="" className="flex w-40 h-15" />
+          <p className="mt-5 text-center text-lg text-neutral-500">
+            "Creative, innovative and strategic. We have <br />
+            great achievements made together and looking <br />
+            to more"
+          </p>
+          <img src="\estrelas.png" alt="" className="w-20 h-20" />
+          <p className="text-neutral-500">Henry Arthur</p>
+          <span className="text-lg text-neutral-300 font-semibold">
+            Head of Engineering, Loom
+          </span>
+        </div>
+        <div className="flex flex-col items-center">
+          <img src="\intercom.svg" alt="" className="w-40 h-15" />
+          <p className="mt-5 text-center text-lg text-neutral-500">
+            "Incredible group of people and talented <br />
+            professionals. Focused on the development of <br />
+            flexible ideas"
+          </p>
+          <img src="\estrelas.png" alt="" className="w-20 h-20" />
+          <p className="text-neutral-500">Jerome Bell</p>
+          <span className="text-lg text-neutral-300 font-semibold">
+            Product Analyst, Intercom
+          </span>
+        </div>
+        <div className="flex flex-col items-center">
+          <img src="\abstract.svg" alt="" className="w-40 h-15" />
+          <p className="mt-5 text-center text-lg text-neutral-500">
+            "A truly innovative approach to gameplay that <br />
+            sets this agency apart from its peers within the <br />
+            broader industry"
+          </p>
+          <img src="\estrelas.png" alt="" className="w-20 h-20" />
+          <p className="text-neutral-500">Eleanor Pena</p>
+          <span className="text-lg text-neutral-300 font-semibold">
+            Head of Product Design, Abstract
+          </span>
         </div>
       </div>
     </section>
