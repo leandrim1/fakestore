@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <section className="w-full h-full bg-neutral-900">
+    <section className="w-full h-full bg-neutral-900 select-none">
       <div className="flex justify-center text-center pt-50 text-8xl text-neutral-300">
         <p>
           Design work
@@ -317,7 +317,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex flex-row justify-center mt-15 gap-8">
-        <div className="w-100 h-80 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
+        <div className="w-100 h-85 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
           <div className="flex flex-col mt-10 ml-10">
             <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full justify-center items-center border-t-2 border-l-2 border-t-neutral-700 border-l-neutral-700">
               <img src="\impressao-digital.png" alt="" className="w-10 h-10" />
@@ -332,8 +332,8 @@ const Home = () => {
             </span>
           </div>
         </div>
-        <div className="w-100 h-80 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
-          <div className="flex flex-col mt-10 ml-10">
+        <div className="w-100 h-85 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
+          <div className="flex flex-col mt-10 ml-8">
             <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full justify-center items-center border-t-2 border-l-2 border-t-neutral-700 border-l-neutral-700">
               <img src="\impressao-digital.png" alt="" className="w-10 h-10" />
             </div>
@@ -346,7 +346,7 @@ const Home = () => {
             </span>
           </div>
         </div>
-        <div className="w-100 h-80 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
+        <div className="w-100 h-85 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
           <div className="flex flex-col mt-10 ml-10">
             <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full justify-center items-center border-t-2 border-l-2 border-t-neutral-700 border-l-neutral-700">
               <img src="\impressao-digital.png" alt="" className="w-10 h-10" />
@@ -375,7 +375,8 @@ const Home = () => {
               Our growth no longer <br />
               necessitates the <br />
               recruitment and education <br />
-              of additional design<br />
+              of additional design
+              <br />
               professionals
             </p>
           </div>
@@ -388,7 +389,7 @@ const Home = () => {
           <img src="\johnny.png" alt="" className="w-130 h-100 rounded-3xl" />
         </div>
       </div>
-      <div className="flex flex-row mt-40 gap-10 justify-center">
+      <div className="flex flex-row mt-40 pb-20 gap-10 justify-center">
         <div className="flex flex-col items-center">
           <img src="\iom.png" alt="" className="flex w-40 h-15" />
           <p className="mt-5 text-center text-lg text-neutral-500">
