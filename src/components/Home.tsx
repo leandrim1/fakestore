@@ -8,16 +8,13 @@ const Home = () => {
           efficient way
         </p>
       </div>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col items-center justify-center mt-10 lg:flex-row lg:gap-10 md:justify-between md:mt-10">
         <div>
           <img
             src="\Vlad Muslakov.png"
             alt="Logo"
-            className="pl-21 w-70 h-50 rounded-2xl"
+            className="w-70 h-50 rounded-2xl lg:pl-21"
           />
-          <div className="ml-22 mt-1 text-sm text-neutral-400">
-            Vlad Muslavkov
-          </div>
         </div>
         <div className="flex flex-col text-center pt-15 text-xl text-neutral-500">
           <p>
@@ -25,7 +22,7 @@ const Home = () => {
             emerging businesses weary of the typical aesthetic <br />
             methodology. Arriving shortly.
           </p>
-          <nav className="hidden md:flex items-center gap-2 lg:gap-10 md:gap-4 mt-8">
+          <nav className="hidden md:flex items-center justify-center gap-2 lg:gap-10 md:gap-4 mt-8">
             <div className="hidden md:flex items-center justify-center lg:gap-10 md:gap-4 border-1 border-neutral-700 rounded-4xl p-4">
               <input
                 type="text"
@@ -41,46 +38,41 @@ const Home = () => {
             </div>
           </nav>
         </div>
-        <div>
+        <div className="mt-10">
           <img
             src="\Vlad Muslakov.png"
             alt="Logo"
-            className="pr-21 w-70 h-50 rounded-2xl"
+            className="lg:pr-21 w-70 h-50 rounded-2xl flex justify-center items-center"
           />
-          <div className="ml-2 mt-1 text-sm text-neutral-400">Aryan Shah</div>
         </div>
       </div>
-      <div className="flex flex-row justify-around">
-        <div className="mt-10">
+      <div className="flex flex-col justify-around lg:flex-row">
+        <div className="flex mt-10 ml-0 justify-center items-center lg:ml-20">
           <img
             src="\Dashboard.png"
             alt="Logo"
-            className="pl-21 w-70 h-50 rounded-2xl"
+            className="w-70 h-50 rounded-2xl"
           />
         </div>
-        <div className="mt-22">
-          <div className="mb-1 text-sm text-neutral-400">Nur Praditya</div>
+        <div className="flex mt-22 justify-center items-center md:mt-10">
           <img
             src="\Nur Praditya.png"
             alt="Logo"
             className="w-70 h-50 rounded-2xl"
           />
         </div>
-        <div className="mt-10">
-          <div className="ml-20 mt-1 text-sm text-neutral-400">
-            Thomas Cullen
-          </div>
+        <div className="flex mt-10 justify-center items-center">
           <img
             src="\Thomas Cullen.png"
             alt="Logo"
-            className="pl-21 w-70 h-50 rounded-2xl"
+            className="w-70 h-50 rounded-2xl lg:mr-20"
           />
         </div>
       </div>
       <div className="flex flex-col text-center pt-25 text-xl text-neutral-500">
         Already chosen by the leaders
       </div>
-      <div className="flex flex-row justify-center mt-10 gap-10 opacity-80 grayscale">
+      <div className="flex flex-col justify-center items-center mt-10 gap-10 opacity-80 grayscale xl:flex-row">
         <img src="\headspace.png" alt="headspace" className="w-50 h-10 " />
         <img src="\shopify.png" alt="shopify" className="w-30 h-12 " />
         <img src="\volvo.png" alt="volvo" className="w-15 h-10" />
@@ -113,7 +105,7 @@ const Home = () => {
           creative procedures.
         </p>
       </div>
-      <div className="flex flex-row justify-center mt-15 gap-8 ">
+      <div className="flex flex-col justify-center items-center mt-15 gap-8 xl:flex-row">
         <div className="w-100 h-110 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
           <div className="flex justify-center">
             <div className="flex flex-col w-68 h-50 bg-neutral-900 opacity-99 rounded-3xl mt-10 border-1 border-neutral-700">
@@ -182,8 +174,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center flex-row justify-center mt-15 gap-8">
-        <div className="flex flex-row items-center justify-around pl-10 w-153 h-50 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
+      <div className="flex items-center flex-col justify-center mt-15 gap-8 xl:flex-row">
+        <div className="flex flex-col items-center justify-around pl-10 w-100 h-90 bg-neutral-800 rounded-4xl border-1 border-neutral-700 sm:w-153 sm:h-50 sm:flex-row">
           <div className="flex flex-col text-2xl text-neutral-300 font-medium leading-none">
             <p className="leading-none">
               Workflow <br />
@@ -223,7 +215,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center justify-around pl-3 w-153 h-50 bg-neutral-800 rounded-4xl border-1 border-neutral-700">
+        <div className="flex flex-col items-center justify-around pl-3 w-100 h-90 bg-neutral-800 rounded-4xl border-1 border-neutral-700 sm:w-153 sm:h-50 sm:flex-row">
           <div className="flex flex-col text-2xl text-neutral-300 font-medium leading-none">
             <p className="leading-none">
               Collaborate <br />
@@ -262,7 +254,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center mt-8 gap-6">
+      <div className="flex flex-col justify-center items-center mt-8 gap-6 lg:flex-row">
         <div className="flex items-center justify-center w-60 h-13 bg-neutral-800 rounded-xl border-1 border-neutral-700">
           <img src="\parar-circulado.png" alt="" className="w-6 h-6" />
           <div className="text-neutral-500 font-semibold ml-2">
@@ -286,7 +278,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center mt-8 gap-8">
+      <div className="flex flex-col justify-center items-center mt-8 gap-8 lg:flex-row">
         <div className="flex items-center justify-center w-50 h-13 bg-neutral-800 rounded-xl border-1 border-neutral-700">
           <img src="\parar-circulado.png" alt="" className="w-6 h-6" />
           <div className="text-neutral-500 font-semibold ml-2">
@@ -316,7 +308,7 @@ const Home = () => {
           delivered at your doorstep.
         </p>
       </div>
-      <div className="flex flex-row justify-center mt-15 gap-8">
+      <div className="flex flex-col justify-center items-center mt-15 gap-8 xl:flex-row">
         <div className="w-100 h-85 bg-neutral-800 rounded-3xl border-1 border-neutral-700">
           <div className="flex flex-col mt-10 ml-10">
             <div className="flex w-20 h-20 bg-neutral-900 opacity-99 rounded-full justify-center items-center border-t-2 border-l-2 border-t-neutral-700 border-l-neutral-700">
@@ -362,7 +354,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row mt-40 justify-center">
+      <div className="flex flex-col mt-40 justify-center items-center xl:flex-row">
         <div className="flex flex-col justify-center text-left">
           <div className="flex flex-row items-end">
             <img src="\parar-circulado.png" alt="" className="w-6 h-6" />
@@ -385,11 +377,11 @@ const Home = () => {
             <img src="\seta-direita.png" alt="" className="pl-2 w-10 h-8" />
           </div>
         </div>
-        <div className="flex pl-15 ">
-          <img src="\johnny.png" alt="" className="w-130 h-100 rounded-3xl" />
+        <div className="flex pl-15">
+          <img src="\johnny.png" alt="" className="flex w-50 h-50 rounded-3xl sm:w-130 sm:h-100 mt-5 mr-20 sm:mr-0" />
         </div>
       </div>
-      <div className="flex flex-row mt-40 pb-20 gap-10 justify-center">
+      <div className="flex flex-col mt-40 pb-20 gap-10 justify-center items-center lg:flex-row">
         <div className="flex flex-col items-center">
           <img src="\iom.png" alt="" className="flex w-40 h-15" />
           <p className="mt-5 text-center text-lg text-neutral-500">

@@ -36,7 +36,7 @@ const Header = () => {
       
 
       {/* Mobile Menu Button */}
-      <div className="md:hidden flex items-center bg-gray-700 rounded-full">
+      <div className="md:hidden flex items-center bg-neutral-300 opacity-99 rounded-full">
         <button
           onClick={toggleMenu}
           className="text-gray-800 hover:text-gray-700"
@@ -61,7 +61,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-20 left-0 w-full bg-gray-800 shadow-lg z-10">
+        <div className="md:hidden absolute top-40 left-0 w-full bg-neutral-900 opacity-99 shadow-lg z-10">
           <nav className="flex flex-col items-center py-4">
             <div className="py-2">
               <strong className="text-gray-400 hover:text-gray-700">
@@ -83,7 +83,7 @@ const Header = () => {
                 FAQs
               </strong>
             </div>
-            <button className="flex items-center h-10 px-4 rounded-3xl text-gray-400 hover:bg-gray-500 border-1 border-gray-400 bg-gray-700 p-6">
+            <button className="flex items-center h-10 px-4 rounded-3xl text-neutral-100 hover:border-neutral-400 border-1 border-neutral-700 bg-neutral-800 p-6 font-semibold">
               Notify me
             </button>
           </nav>
